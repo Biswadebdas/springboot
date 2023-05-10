@@ -20,7 +20,7 @@ import com.nagarro.assignment5api.model.Books;
 import com.nagarro.assignment5api.repository.BooksRepo;
 
 @RestController
-@RequestMapping("/book")
+@RequestMapping("/books")
 @CrossOrigin(origins = "http://localhost:3006")
 public class BookController {
 
