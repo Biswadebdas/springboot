@@ -3,7 +3,8 @@ pipeline {
   stages {
      stage('Build') {
          steps {
-         echo 'Build complete'
+           build job: 'assignment5 springboot', waitForStart: true
+           echo 'Build complete'
          }
      }
       stage('Test') {
